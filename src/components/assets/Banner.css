@@ -1,0 +1,37 @@
+.banner {
+  background: url("https://d26a57ydsghvgx.cloudfront.net/product/Customer%20Story%20Images/airbnb3.jpg");
+  height: 50vh;
+  position: relative;
+}
+.banner__info {
+  background-color: black;
+  color: white;
+  /* padding: 25vh 50px 50px 40px; */
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779;
+  border: solid 1px black;
+}
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  border: none;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner__info > h5 {
+  margin-top: 10px;
+}
